@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+}
+.left-section {
+    margin-top: 0;
+    width: 70%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(/images/image.png);
+
+
+}
+.welcome{
+    background-size: cover;
+    background-position: center;
+}
+
+.left-section .welcome-text h1 {
+    color: #a5007d;
+    font-weight: lighter;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 200px;
+    padding: 20px;
+    margin-right: 150px;
+
+}
+.left-section .welcome-text .span{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.right-section {
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.right-section img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.right-section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+.right-section .form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.right-section .form input[type="text"],
+.right-section .form input[type="password"] {
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.form .inform{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+
+}
+.form .password{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+.right-section .form input[type="checkbox"] {
+    margin-bottom: 20px;
+}
+.right-section .form button {
+    padding: 15px;
+    background-color: #a5007d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.right-section .form a {
+    text-align: center;
+    margin-top: 10px;
+    color: #a5007d;
+    text-decoration: none;
+}
